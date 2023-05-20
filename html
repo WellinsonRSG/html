@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<!-- -->
+    <meta charset="UTF-8">
+<!-- -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- -->
+    <title>introdução</title>
+</head>
+<!-- Conteúdo apresentado ao visitante -->
+<body>
+    <!--h1 ~ h6 -->
+    <h1> Pizza do Chico</h1>
+    <h2> Promoções do dia</h2>
+    <h3> veja os novos sabores</h3>
+    <!-- Quebra de linha -->
+</br>
+<!-- Parágrafo -->
+<p> Este é um parágrafo </p>
+</br>
+<img src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-massa-de-pizza.jpg"/>
+
+</br>
+
+<!-- Iniciando a minha listagem de itens -->
+<ul>
+    <!-- Iniciando a minha lista -->
+    <li> item 1</li>
+    <li> item 2</li>
+    <li> item 3</li>
+    
+</ul>
+
+   <ol>
+    <li> lista </li>
+    <li> lista </li>
+    <li> lista </li>
+    <p>
+
+    <ul>
+        <li> item 1
+        <li>categoria
+        <li>carro</li>
+        <li>moto</li>
+        <br>
+        <!-- Iniciando uma tabela -->
+   <table>
+    <!-- Iniciando o cabeçalho da nossa tabela -->
+    <thead>
+        <!-- Iniciando a linha do cabeçalho -->
+        <tr>
+        <!-- Iniciando o corpo da tabela -->    
+        <th>#</th>
+        <th>nome</th>
+        <th>email</th>
+        </tr>
+        <!-- Iniciando as informações -->
+        <td>0</td>
+        <td>Francisco</td>
+        <td>francisco@gmail.com</td>
+    </tr>
+    <!-- Iniciando a linha do corpo -->
+    </tr>
+        <td>1</td>
+        <td>Wellinson</td>
+        <td>wellinson@gmail.com</td>
+    </tr>
+        <td>2</td>
+        <td>Rebeca</td>
+        <td>rebecca@gmail.com</td>
+
+    </tr>
+    <tbody>
+        <table>
+            <!-- Formulário -->
+            <form>
+        <!-- Tag utilizada para nome ao input -->
+        <label for= "nome" > Nome </label>
+        <!-- Tag para adicionar informações -->
+        <!-- Type: tipo do input que pode ser texto, email -->
+        <!-- Id: identificação unitário -->
+        <!-- Nome: ajudará a capturar informações que foram passadas -->
+        <!-- Required: valor booleano -->
+        <!-- Placeholder: informação de dentro do input -->
+        <input type="text" id="nome" name="nome" required  placeholder="Digite o seu nome"/>
+        <br>
+        <label for= "email" > E-mail </label>
+        <input type="email" id="email" name="email" required  placeholder="Digite o seu E-mail"/>
+        <br>
+        <label for= "senha" > Senha </label>
+        <input type="password" id="password" name="password" required  placeholder="Digite a seu senha"/>
+        <br>
+
+        <!-- Usando tag botão -->
+        <button type="submit">Enviar</button>
+        <br>
+
+            </form>
+
+            <!-- evento de redirecionamento -->
+            <a href="https://www.google.com.br/">Vai para o Google</a>
+            <br>
+            <a href="https://www.google.com.br/" target="_Blank"> Vai para o Google</a>
+            <!-- adiciona uma linha-->
+            <hr>
+
+            <!-- action: redireciona o usuário com as informações passadas -->
+            <form action="http://wa.me/85999999999" target="_blank">
+                <label for="text"> Mensagem </label>
+                <br>
+                <!-- uma caixa de texto -->
+                <textarea id="text" name="text"></textarea>
+                <br>
+
+            <!-- usando tag input para enviar -->
+                <input type="submit">
+            </form>
+
+            <!-- form -->
+            <form>
+
+                <p> Pedido de Pizza</p>
+                <br>
+                <label for="Localidade"> Localidade </label>
+                <input type="text" id="localidade" name="localidade" required placeholder="Adicionar rua, bairro, número...">
+                <br>
+
+                <!-- adicionando um <p> para informar a borda -->      
+
+                <br>
+                <!-- tipo radio e para flegar apenas uma opção -->
+                <!-- o atributo "name" dele repete para que possa escolher somente uma opção -->
+                <input type="radio" id="cheddar" name="borda" value="cheddar"/>
+                <label for="cheddar"> Cheddar </label>
+                <br>
+                <input type="radio" id="catupiry" name="borda" value="catupiry"/>
+                <label for="catupiry"> Cheddar </label>
+                <br>
+             <!-- chocolate -->
+
+
+                <br>
+                <!-- select -->
+                <label for="mais"> Adicionais </label>
+                <select name="Adicionais" id="adicionais">
+                    <option value="queijo"> Queijo </option>
+                    <option value="tomate"> Tomate </option>
+                    <!-- cebola -->
+
+                </select>
+                <br>
+
+                <p> <strong> Sabores </strong> </p>
+
+                <br>
+                <!-- pizza -->
+                <input type="checkbox" name="pizza" id="marguerita" value="marguerita"/>
+                <label for="marguerita"> Marguerita </label>
+                <br>
+                <input type="checkbox" name="pizza" id="calabresa" value="calabresa"/>
+                <label for="calabresa"> Calabresa </label>
+                <br>
+                <br>
+                
+
+                <button type="submit"> Enviar Pedido </button>
+
+            </form>
+
+
+</body>
+</html>
